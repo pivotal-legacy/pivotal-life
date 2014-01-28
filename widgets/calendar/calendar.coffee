@@ -6,7 +6,7 @@ class Dashing.Calendar extends Dashing.Widget
 
   onData: (data) =>	
     @events = data.events
-    @updateEvent()		
+    @updateEvent()
 
   updateEvent: =>
     event = @events[@pre]

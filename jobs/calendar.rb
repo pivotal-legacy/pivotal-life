@@ -11,7 +11,7 @@ Dotenv.load
 # make sure your URLs end with /full, not /simple (which is default)!
 # ------
 
-default_calendar_url = "http://www.google.com/calendar/feeds/en.usa%23holiday%40group.v.calendar.google.com/public/basic"
+default_calendar_url = "http://www.google.com/calendar/feeds/en.usa%23holiday%40group.v.calendar.google.com/public/full"
 calendar_url = ENV['EVENT_CALENDAR_URL'] || default_calendar_url
 
 calendars = [{name: 'Events', url: calendar_url}]
