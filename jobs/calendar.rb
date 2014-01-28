@@ -31,9 +31,11 @@ SCHEDULER.every '10m', :first_in => 0 do |job|
       title = e.at_xpath("./title").text
       content = e.at_xpath("./content").text
       when_node = e.at_xpath("./when")
+      where_node = e.at_xpath("./where")
       events.push({title: title,
                    body: content ? content : "",
                    calendar: calendar[:name],
+                   where: where_node.attribute("valueString").text,
                    when_start_raw: when_node ? DateTime.iso8601(when_node.attribute('startTime').text).to_time.to_i : 0,
                    when_end_raw: when_node ? DateTime.iso8601(when_node.attribute('endTime').text).to_time.to_i : 0,
                    when_start: when_node ? DateTime.iso8601(when_node.attribute('startTime').text).to_time : "No time",
