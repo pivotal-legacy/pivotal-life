@@ -2,7 +2,7 @@ require 'dashing'
 
 configure do
   set :auth_token, 'YOUR_AUTH_TOKEN'
-  set :default_dashboard, 'nyc'
+  set :default_dashboard, 'sf'
 
   helpers do
     def protected!

@@ -21,7 +21,7 @@ Start up Dashing:
 
     $ dashing start
 
-Then navigate to <http://localhost:3030/nyc>.
+Then navigate to <http://localhost:3030/>.
 
 ## Running on Heroku
 
