@@ -1,3 +1,4 @@
+require 'cgi'
 require 'twitter'
 require 'dotenv'
 
@@ -19,7 +20,7 @@ SCHEDULER.every '10m', :first_in => 0 do |job|
 
     if tweets
       tweets.map! do |tweet|
-        { name: tweet.user.name, body: tweet.text, avatar: tweet.user.profile_image_url_https }
+        { name: CGI.unescapeHTML(tweet.user.name), body: CGI.unescapeHTML(tweet.text), avatar: tweet.user.profile_image_url_https }
       end
       send_event('twitter_mentions', comments: tweets)
     end
