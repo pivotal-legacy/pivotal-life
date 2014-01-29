@@ -21,6 +21,7 @@ end
 group :development, :test do
   gem 'pry'
   gem 'rspec'
+  gem 'jasmine'
   gem 'vcr'
   gem 'webmock', '<1.16'
 end

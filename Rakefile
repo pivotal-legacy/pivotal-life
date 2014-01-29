@@ -10,7 +10,12 @@ rescue LoadError
   # The gem shouldn't be installed in a production environment
 end
 
-RSpec::Core::RakeTask.new(:spec)
+RSpec::Core::RakeTask.new(:rspec)
 
-task :default => [:spec]
+task jspec: ['jasmine:ci']
 
+task spec: [:rspec, :jspec]
+
+task default: [:spec]
+require 'jasmine'
+load 'jasmine/tasks/jasmine.rake'

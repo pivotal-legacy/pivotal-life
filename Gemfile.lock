@@ -82,6 +82,12 @@ GEM
       http_parser.rb
     http_parser.rb (0.5.3)
     i18n (0.6.5)
+    jasmine (2.0.0)
+      jasmine-core (~> 2.0.0)
+      phantomjs
+      rack (>= 1.2.1)
+      rake
+    jasmine-core (2.0.0)
     json (1.8.1)
     listen (2.2.0)
       celluloid (>= 0.15.2)
@@ -97,6 +103,7 @@ GEM
     multipart-post (1.2.0)
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
+    phantomjs (1.9.2.1)
     pry (0.9.12.3)
       coderay (~> 1.0)
       method_source (~> 0.8)
@@ -192,6 +199,7 @@ DEPENDENCIES
   geocoder
   guard-rspec
   heroku_san
+  jasmine
   nokogiri
   pry
   rake
