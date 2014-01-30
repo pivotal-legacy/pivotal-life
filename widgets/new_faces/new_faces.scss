@@ -1,7 +1,7 @@
 // ----------------------------------------------------------------------------
 // Sass declarations
 // ----------------------------------------------------------------------------
-$background-color:  white;
+$background-color:  #dc5945;
 
 // ----------------------------------------------------------------------------
 // Widget-image styles
@@ -10,11 +10,11 @@ $background-color:  white;
   background-color: $background-color;
 
   img {
+    margin: auto;
     display: block;
   }
 
   .name {
-
     color: #000000;
   }
 }
