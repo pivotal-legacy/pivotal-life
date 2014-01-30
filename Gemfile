@@ -13,6 +13,9 @@ gem 'twitter'
 
 gem 'coveralls', require: false
 
+gem 'rspec' # so our Rakefile works everywhere
+gem 'jasmine'
+
 group :development do
   gem 'heroku_san'
   gem 'guard-rspec'
@@ -20,8 +23,6 @@ end
 
 group :development, :test do
   gem 'pry'
-  gem 'rspec'
-  gem 'jasmine'
   gem 'vcr'
   gem 'webmock', '<1.16'
   gem 'rack-coffee'

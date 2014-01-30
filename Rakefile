@@ -1,5 +1,5 @@
 require 'rspec/core/rake_task'
-require "bundler/setup"
+require 'bundler/setup'
 
 begin
   require "heroku_san"
