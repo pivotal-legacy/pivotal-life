@@ -24,6 +24,7 @@ group :development, :test do
   gem 'jasmine'
   gem 'vcr'
   gem 'webmock', '<1.16'
+  gem 'rack-coffee'
 end
 
 group :test do
