@@ -1,0 +1,108 @@
+<RTT>
+  <AgencyList>
+    <Agency Name="BART" HasDirection="False" Mode="Rail">
+      <RouteList>
+        <Route Name="24th St. Mission" Code="587">
+          <StopList>
+            <Stop name="Powell St. (SF)" StopCode="14">
+              <DepartureTimeList/>
+            </Stop>
+          </StopList>
+        </Route>
+        <Route Name="Concord" Code="886">
+          <StopList>
+            <Stop name="Powell St. (SF)" StopCode="13">
+              <DepartureTimeList>
+                <DepartureTime>55</DepartureTime>
+              </DepartureTimeList>
+            </Stop>
+          </StopList>
+        </Route>
+        <Route Name="Daly City" Code="747">
+          <StopList>
+            <Stop name="Powell St. (SF)" StopCode="14">
+              <DepartureTimeList>
+                <DepartureTime>2</DepartureTime>
+                <DepartureTime>7</DepartureTime>
+                <DepartureTime>16</DepartureTime>
+              </DepartureTimeList>
+            </Stop>
+          </StopList>
+        </Route>
+        <Route Name="Dublin Pleasanton" Code="920">
+          <StopList>
+            <Stop name="Powell St. (SF)" StopCode="13">
+              <DepartureTimeList>
+                <DepartureTime>13</DepartureTime>
+                <DepartureTime>27</DepartureTime>
+                <DepartureTime>42</DepartureTime>
+              </DepartureTimeList>
+            </Stop>
+          </StopList>
+        </Route>
+        <Route Name="Fremont" Code="917">
+          <StopList>
+            <Stop name="Powell St. (SF)" StopCode="13">
+              <DepartureTimeList>
+                <DepartureTime>4</DepartureTime>
+                <DepartureTime>19</DepartureTime>
+                <DepartureTime>34</DepartureTime>
+              </DepartureTimeList>
+            </Stop>
+          </StopList>
+        </Route>
+        <Route Name="Millbrae" Code="764">
+          <StopList>
+            <Stop name="Powell St. (SF)" StopCode="14">
+              <DepartureTimeList>
+                <DepartureTime>12</DepartureTime>
+                <DepartureTime>27</DepartureTime>
+                <DepartureTime>42</DepartureTime>
+              </DepartureTimeList>
+            </Stop>
+          </StopList>
+        </Route>
+        <Route Name="Pittsburg Bay Point" Code="908">
+          <StopList>
+            <Stop name="Powell St. (SF)" StopCode="13">
+              <DepartureTimeList>
+                <DepartureTime>14</DepartureTime>
+                <DepartureTime>30</DepartureTime>
+                <DepartureTime>44</DepartureTime>
+              </DepartureTimeList>
+            </Stop>
+          </StopList>
+        </Route>
+        <Route Name="Richmond" Code="237">
+          <StopList>
+            <Stop name="Powell St. (SF)" StopCode="13">
+              <DepartureTimeList>
+                <DepartureTime>9</DepartureTime>
+                <DepartureTime>22</DepartureTime>
+                <DepartureTime>38</DepartureTime>
+              </DepartureTimeList>
+            </Stop>
+          </StopList>
+        </Route>
+        <Route Name="SF Airport" Code="722">
+          <StopList>
+            <Stop name="Powell St. (SF)" StopCode="14">
+              <DepartureTimeList>
+                <DepartureTime>4</DepartureTime>
+                <DepartureTime>19</DepartureTime>
+                <DepartureTime>34</DepartureTime>
+              </DepartureTimeList>
+            </Stop>
+          </StopList>
+        </Route>
+        <Route Name="SF Airport then Millbrae" Code="831">
+          <StopList>
+            <Stop name="Powell St. (SF)" StopCode="14">
+              <DepartureTimeList/>
+            </Stop>
+          </StopList>
+        </Route>
+      </RouteList>
+    </Agency>
+  </AgencyList>
+</RTT>

@@ -13,7 +13,8 @@ gem 'twitter'
 
 gem 'coveralls', require: false
 
-gem 'rspec' # so our Rakefile works everywhere
+# so our Rakefile works everywhere
+gem 'rspec'
 gem 'jasmine'
 
 group :development do
