@@ -1,0 +1,18 @@
+<div class="data">
+  <table>
+    <thead>
+      <tr>
+        <th class="direction inbound">Inbound</th>
+        <th class="route"><img src="http://www.bcsii.net/BCSI/images/Client%20Final%20logo/muni_logo.gif" height="30"/></th>
+        <th class="direction outbound">Outbound</th>
+      </tr>
+    </thead>
+    <tr data-foreach-item="trains">
+      <td class="times inbound"><span data-foreach-time="trains[item].inbound" data-bind="time"></span></td>
+      <th class="line">
+        <span data-bind-class="item" data-bind="item"></span>
+      </th>
+      <td class="times outbound"><span data-foreach-time="trains[item].outbound" data-bind="time"></span></td>
+    </tr>
+  </table>
+</div>

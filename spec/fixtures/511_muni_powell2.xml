@@ -1,0 +1,82 @@
+<RTT>
+  <AgencyList>
+    <Agency Name="SF-MUNI" HasDirection="True" Mode="Bus">
+      <RouteList>
+        <Route Name="J-Church" Code="J">
+          <RouteDirectionList>
+            <RouteDirection Code="Outbound" Name="Outbound to Balboa Park Station">
+              <StopList>
+                <Stop name="Powell Station Outbound" StopCode="16995">
+                  <DepartureTimeList>
+                    <DepartureTime>6</DepartureTime>
+                    <DepartureTime>11</DepartureTime>
+                    <DepartureTime>33</DepartureTime>
+                  </DepartureTimeList>
+                </Stop>
+              </StopList>
+            </RouteDirection>
+          </RouteDirectionList>
+        </Route>
+        <Route Name="KT-Ingleside Third Street" Code="KT">
+          <RouteDirectionList>
+            <RouteDirection Code="Outbound" Name="Outbound to Balboa Park Station via Downtown">
+              <StopList>
+                <Stop name="Powell Station Outbound" StopCode="16995">
+                  <DepartureTimeList>
+                    <DepartureTime>7</DepartureTime>
+                    <DepartureTime>18</DepartureTime>
+                  </DepartureTimeList>
+                </Stop>
+              </StopList>
+            </RouteDirection>
+          </RouteDirectionList>
+        </Route>
+        <Route Name="L-Taraval" Code="L">
+          <RouteDirectionList>
+            <RouteDirection Code="Outbound" Name="Outbound to San Francisco Zoo">
+              <StopList>
+                <Stop name="Powell Station Outbound" StopCode="16995">
+                  <DepartureTimeList>
+                    <DepartureTime>2</DepartureTime>
+                    <DepartureTime>6</DepartureTime>
+                    <DepartureTime>8</DepartureTime>
+                  </DepartureTimeList>
+                </Stop>
+              </StopList>
+            </RouteDirection>
+          </RouteDirectionList>
+        </Route>
+        <Route Name="M-Ocean View" Code="M">
+          <RouteDirectionList>
+            <RouteDirection Code="Outbound" Name="Outbound to Balboa Park Station">
+              <StopList>
+                <Stop name="Powell Station Outbound" StopCode="16995">
+                  <DepartureTimeList>
+                    <DepartureTime>5</DepartureTime>
+                    <DepartureTime>11</DepartureTime>
+                    <DepartureTime>13</DepartureTime>
+                  </DepartureTimeList>
+                </Stop>
+              </StopList>
+            </RouteDirection>
+          </RouteDirectionList>
+        </Route>
+        <Route Name="N-Judah" Code="N">
+          <RouteDirectionList>
+            <RouteDirection Code="Outbound" Name="Outbound to Ocean Beach via Downtown">
+              <StopList>
+                <Stop name="Powell Station Outbound" StopCode="16995">
+                  <DepartureTimeList>
+                    <DepartureTime>16</DepartureTime>
+                    <DepartureTime>26</DepartureTime>
+                    <DepartureTime>36</DepartureTime>
+                  </DepartureTimeList>
+                </Stop>
+              </StopList>
+            </RouteDirection>
+          </RouteDirectionList>
+        </Route>
+      </RouteList>
+    </Agency>
+  </AgencyList>
+</RTT>

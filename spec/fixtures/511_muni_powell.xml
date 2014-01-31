@@ -1,0 +1,82 @@
+<RTT>
+  <AgencyList>
+    <Agency Name="SF-MUNI" HasDirection="True" Mode="Bus">
+      <RouteList>
+        <Route Name="J-Church" Code="J">
+          <RouteDirectionList>
+            <RouteDirection Code="Inbound" Name="Inbound to Downtown">
+              <StopList>
+                <Stop name="Powell Station Inbound" StopCode="15417">
+                  <DepartureTimeList>
+                    <DepartureTime>2</DepartureTime>
+                    <DepartureTime>24</DepartureTime>
+                    <DepartureTime>31</DepartureTime>
+                  </DepartureTimeList>
+                </Stop>
+              </StopList>
+            </RouteDirection>
+          </RouteDirectionList>
+        </Route>
+        <Route Name="KT-Ingleside Third Street" Code="KT">
+          <RouteDirectionList>
+            <RouteDirection Code="Inbound" Name="Inbound to Visitacion Valley via Downtown">
+              <StopList>
+                <Stop name="Powell Station Inbound" StopCode="15417">
+                  <DepartureTimeList>
+                    <DepartureTime>13</DepartureTime>
+                    <DepartureTime>23</DepartureTime>
+                    <DepartureTime>28</DepartureTime>
+                  </DepartureTimeList>
+                </Stop>
+              </StopList>
+            </RouteDirection>
+          </RouteDirectionList>
+        </Route>
+        <Route Name="L-Taraval" Code="L">
+          <RouteDirectionList>
+            <RouteDirection Code="Inbound" Name="Inbound to Downtown">
+              <StopList>
+                <Stop name="Powell Station Inbound" StopCode="15417">
+                  <DepartureTimeList>
+                    <DepartureTime>2</DepartureTime>
+                    <DepartureTime>5</DepartureTime>
+                    <DepartureTime>17</DepartureTime>
+                  </DepartureTimeList>
+                </Stop>
+              </StopList>
+            </RouteDirection>
+          </RouteDirectionList>
+        </Route>
+        <Route Name="M-Ocean View" Code="M">
+          <RouteDirectionList>
+            <RouteDirection Code="Inbound" Name="Inbound to Downtown">
+              <StopList>
+                <Stop name="Powell Station Inbound" StopCode="15417">
+                  <DepartureTimeList>
+                    <DepartureTime>3</DepartureTime>
+                    <DepartureTime>37</DepartureTime>
+                  </DepartureTimeList>
+                </Stop>
+              </StopList>
+            </RouteDirection>
+          </RouteDirectionList>
+        </Route>
+        <Route Name="N-Judah" Code="N">
+          <RouteDirectionList>
+            <RouteDirection Code="Inbound" Name="Inbound to Caltrain via Downtown">
+              <StopList>
+                <Stop name="Powell Station Inbound" StopCode="15417">
+                  <DepartureTimeList>
+                    <DepartureTime>4</DepartureTime>
+                    <DepartureTime>52</DepartureTime>
+                    <DepartureTime>63</DepartureTime>
+                  </DepartureTimeList>
+                </Stop>
+              </StopList>
+            </RouteDirection>
+          </RouteDirectionList>
+        </Route>
+      </RouteList>
+    </Agency>
+  </AgencyList>
+</RTT>

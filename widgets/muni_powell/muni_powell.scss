@@ -1,0 +1,84 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color: white;
+$J-color: rgb(247, 149, 27);
+$K-color: rgb(65, 137, 178);
+$L-color: rgb(126, 3, 124);
+$M-color: rgb(6, 120, 63);
+$N-color: rgb(0, 60, 138);
+$T-color: rgb(200, 0, 51);
+
+// ----------------------------------------------------------------------------
+// Widget-calendar styles
+// ----------------------------------------------------------------------------
+.widget-muni-powell {
+  background-color: $background-color;
+  color: black;
+
+  .data {
+    table {
+      td span:after {
+         content: 'm ';
+      }
+
+      th.direction {
+        text-align: center;
+      }
+
+      td.times {
+        span {
+          display: inline-block;
+          width: 2.25em;
+        }
+        &.inbound {
+          text-align: right;
+          span {
+            float: right;
+            text-align: right;
+          }
+        }
+        &.outbound {
+          text-align: left;
+          span {
+            text-align: left;
+          }
+        }
+      }
+
+      th.line {
+        padding: 0.1em 0.5em;
+        span {
+          border-radius: 50%;
+          border: solid black 2px;
+          display: inline-block;
+          width: 1.5em;
+          height: 1.5em;
+          color: white;
+          background: black;
+          &.J {
+            background: $J-color;
+          }
+          &.K {
+            background: $K-color;
+          }
+          &.L {
+            background: $L-color;
+          }
+          &.M {
+            background: $M-color;
+          }
+          &.N, &.NX {
+            background: $N-color;
+          }
+          &.T {
+            background: $T-color;
+          }
+          &.KT {
+            background: linear-gradient(90deg, $K-color 0%,$K-color 50%,$T-color 50%,$T-color 100%);;
+          }
+        }
+      }
+    }
+  }
+}
