@@ -1,0 +1,10 @@
+<img class="logo" src="http://www.evictiondefense.org/img/logo_bart.gif" alt="BART"/>
+
+<div class="data">
+  <table>
+    <tr data-foreach-item="trains">
+      <th class="name" data-bind="item"></th>
+      <td class="times" data-foreach-time="trains[item]" data-bind="time"></td>
+    </tr>
+  </table>
+</div>

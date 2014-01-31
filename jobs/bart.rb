@@ -2,5 +2,5 @@ url = "http://services.my511.org/Transit2.0/GetNextDeparturesByStopName.aspx?tok
 
 SCHEDULER.every '60s', first_in: 0 do
   bart_client = BartFetcher.new(url)
-  send_event('bart', { data: bart_client })
+  send_event('bart', { data: bart_client.data })
 end

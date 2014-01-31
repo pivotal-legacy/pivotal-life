@@ -1,0 +1,55 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color: #ec663c;
+
+// ----------------------------------------------------------------------------
+// Widget-calendar styles
+// ----------------------------------------------------------------------------
+.widget-bart {
+  background-color: white;
+  background-image: url("http://upload.wikimedia.org/wikipedia/en/archive/4/44/20120813231048!Marge_vs._the_Monorail_(promo_card).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -100px;
+  color: black;
+  padding: 0 !important;
+  overflow: hidden;
+
+  img.logo {
+    position: absolute;
+    top: 65px;
+    left: 209px;
+  }
+
+  .data {
+    padding: 5px;
+    background: white;
+    position: absolute;
+    bottom: 0;
+
+    table {
+
+      th, td {
+        padding: 0
+      }
+      th {
+        text-align: right;
+        font-size: smaller;
+        padding-right: 1em;
+        white-space: nowrap;
+      }
+      td {
+        text-align: right;
+      }
+
+      .times {
+        padding-left: 1em;
+        &:after {
+          content: "m";
+        }
+      }
+    }
+  }
+}
+
