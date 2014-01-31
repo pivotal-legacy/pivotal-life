@@ -3,9 +3,6 @@ class Dashing.NewFaces extends Dashing.Widget
   ready: =>
     @currentFaceIdx = 0
     setInterval(@rotate, 30000)
-#    if @get('new_faces')
-#      @currentFaceIdx--
-#      @rotate()
 
 
   onData: (data) =>
