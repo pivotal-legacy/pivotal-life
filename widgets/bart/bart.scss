@@ -27,11 +27,13 @@ $background-color: #ec663c;
     background: white;
     position: absolute;
     bottom: 0;
+    max-height: 236px;
 
     table {
-
       th, td {
-        padding: 0
+        padding: 0;
+        max-width: 10em;
+        overflow: hidden;
       }
       th {
         text-align: right;

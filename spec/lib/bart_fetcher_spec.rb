@@ -19,7 +19,7 @@ describe BartFetcher do
       'Millbrae' => [12, 27, 42],
       'Pittsburg Bay Point' => [14, 30, 44],
       'Richmond' => [9, 22, 38],
-      'SF Airport' => [4, 19, 34],
+      'SFO' => [4, 19, 34],
     }
 
     d = bart_fetcher.data

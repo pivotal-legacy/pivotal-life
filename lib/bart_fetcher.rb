@@ -8,7 +8,7 @@ class BartFetcher
 
     @data = {}
     xmlParsed.xpath('/RTT/AgencyList/Agency/RouteList/Route').each do |route|
-      data[route.attribute('Name').text] = route.xpath('./StopList/Stop/DepartureTimeList/DepartureTime').map do |time|
+      data[route.attribute('Name').text.gsub('SF Airport','SFO')] = route.xpath('./StopList/Stop/DepartureTimeList/DepartureTime').map do |time|
         Integer(time.text)
       end
     end
