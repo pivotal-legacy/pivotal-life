@@ -22,11 +22,12 @@ $background-color: #ec663c;
     left: 209px;
   }
 
+  display: table-cell;
+  vertical-align: bottom !important;
+
   .data {
     padding: 5px;
     background: white;
-    position: absolute;
-    bottom: 0;
     max-height: 236px;
     opacity: 0.9;
 
@@ -39,7 +40,6 @@ $background-color: #ec663c;
       th {
         text-align: right;
         font-size: smaller;
-        padding-right: 1em;
         white-space: nowrap;
       }
       td {
