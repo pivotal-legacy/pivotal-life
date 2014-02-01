@@ -3,7 +3,7 @@ require 'rack/coffee'
 class ShimCoffeeRack
 
   def initialize(app, opts = {})
-    @coffee = Rack::Coffee.new(app, {:urls => ['/widgets', '/spec/javascripts']})
+    @coffee = Rack::Coffee.new(app, {:urls => ['/widgets', '/spec/javascripts', '/assets']})
   end
 
   def call(env)

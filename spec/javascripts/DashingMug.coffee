@@ -15,3 +15,5 @@ if (!window.Dashing)
   }
   window.Dashing.Widget.accessor = (name, other) =>
     @[name] = other
+  window.Dashing.on = (event, fn) =>
+    # TODO?

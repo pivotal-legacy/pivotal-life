@@ -11,9 +11,10 @@
 #   - dist/**/*.js
 #
 src_files:
+  - spec/javascripts/support/jquery.js
+  - spec/javascripts/DashingMug.coffee
   - assets/javascripts/**/**.js
   - assets/javascripts/**/**.coffee
-  - spec/javascripts/DashingMug.coffee
   - widgets/**/*.coffee
 
 # stylesheets
