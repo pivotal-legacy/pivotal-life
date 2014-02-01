@@ -11,6 +11,8 @@
 #   - dist/**/*.js
 #
 src_files:
+  - assets/javascripts/**/**.js
+  - assets/javascripts/**/**.coffee
   - spec/javascripts/DashingMug.coffee
   - widgets/**/*.coffee
 

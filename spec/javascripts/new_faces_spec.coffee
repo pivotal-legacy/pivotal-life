@@ -6,10 +6,6 @@ describe("new faces", =>
   beforeEach(=>
     spyOn(window, "setInterval")
 
-
-#    $("#jasmine_content").append($("div"))
-#    window.setInterval = jasmine.createSpy("setInterval")
-
     newFaces = new Dashing.NewFaces()
     newFaces.ready()
     pivot1 = {photo_url: '/abc/xyz', first_name: "Joe", last_name: "Pivot"}

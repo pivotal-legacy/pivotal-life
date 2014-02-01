@@ -1,8 +1,10 @@
-<h2 class="title" data-bind="event.title"/>
+<div data-bind-class="event.calendar">
+  <h2 class="title" data-bind="event.title"/>
 
-<div class="body" data-bind="event.body | raw"/>
-<div data-bind="event.time | raw"/>
-<div data-bind="event.where | raw"/>
+  <div class="body" data-bind="event.body | raw"/>
+  <div data-bind="event.time | raw"/>
+  <div data-bind="event.where | raw"/>
 
-<p class="more-info" data-bind="moreinfo"/>
-<p class="updated-at" data-bind="updatedAtMessage"/>
+  <p class="more-info" data-bind="moreinfo"/>
+  <p class="updated-at" data-bind="updatedAtMessage"/>
+</div>
