@@ -1,0 +1,63 @@
+<RTT>
+<AgencyList>
+<Agency Name="SF-MUNI" HasDirection="True" Mode="Bus">
+<RouteList>
+<Route Name="21-Hayes" Code="21">
+<RouteDirectionList>
+<RouteDirection Code="Outbound" Name="Outbound to Golden Gate Park">
+<StopList>
+<Stop name="Market St  and  Powell St" StopCode="15688">
+<DepartureTimeList>
+<DepartureTime>7</DepartureTime>
+<DepartureTime>19</DepartureTime>
+<DepartureTime>31</DepartureTime>
+</DepartureTimeList>
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="31-Balboa" Code="31">
+<RouteDirectionList>
+<RouteDirection Code="Outbound" Name="Outbound to Ocean Beach">
+<StopList>
+<Stop name="Market St  and  Powell St" StopCode="15688">
+<DepartureTimeList>
+<DepartureTime>19</DepartureTime>
+<DepartureTime>34</DepartureTime>
+<DepartureTime>49</DepartureTime>
+</DepartureTimeList>
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="5-Fulton" Code="5">
+<RouteDirectionList>
+<RouteDirection Code="Outbound" Name="Outbound to Ocean Beach">
+<StopList>
+<Stop name="Market St  and  Powell St" StopCode="15688">
+<DepartureTimeList>
+<DepartureTime>8</DepartureTime>
+<DepartureTime>16</DepartureTime>
+<DepartureTime>25</DepartureTime>
+</DepartureTimeList>
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+</RouteList>
+</Agency>
+
+</AgencyList>
+</RTT>

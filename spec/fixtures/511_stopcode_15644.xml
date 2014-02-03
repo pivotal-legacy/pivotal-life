@@ -1,0 +1,73 @@
+<RTT>
+<AgencyList>
+<Agency Name="SF-MUNI" HasDirection="True" Mode="Bus">
+<RouteList>
+<Route Name="16X-Noriega Express" Code="16X">
+<RouteDirectionList>
+<RouteDirection Code="Inbound" Name="Inbound to Downtown">
+<StopList>
+<Stop name="Market Bet 5th  and  4th St" StopCode="15644">
+<DepartureTimeList />
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="5-Fulton" Code="5">
+<RouteDirectionList>
+<RouteDirection Code="Inbound" Name="Inbound to Downtown">
+<StopList>
+<Stop name="Market Bet 5th  and  4th St" StopCode="15644">
+<DepartureTimeList>
+<DepartureTime>6</DepartureTime>
+<DepartureTime>13</DepartureTime>
+<DepartureTime>29</DepartureTime>
+</DepartureTimeList>
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="71-Haight Noriega" Code="71">
+<RouteDirectionList>
+<RouteDirection Code="Inbound" Name="Inbound to Downtown">
+<StopList>
+<Stop name="Market Bet 5th  and  4th St" StopCode="15644">
+<DepartureTimeList>
+<DepartureTime>4</DepartureTime>
+<DepartureTime>13</DepartureTime>
+<DepartureTime>23</DepartureTime>
+</DepartureTimeList>
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="71L-Haight Noriega Limited" Code="71L">
+<RouteDirectionList>
+<RouteDirection Code="Inbound" Name="Inbound to Downtown">
+<StopList>
+<Stop name="Market Bet 5th  and  4th St" StopCode="15644">
+<DepartureTimeList />
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+</RouteList>
+</Agency>
+
+</AgencyList>
+</RTT>

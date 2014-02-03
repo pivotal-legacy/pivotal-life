@@ -5,7 +5,7 @@ class MuniPowellFetcher
     inbound_url = "http://services.my511.org/Transit2.0/GetNextDeparturesByStopCode.aspx?token=#{token}&stopcode=15417"
     outbound_url = "http://services.my511.org/Transit2.0/GetNextDeparturesByStopCode.aspx?token=#{token}&stopcode=16995"
 
-    @data = {
+  @data = {
       inbound: fetch_data(inbound_url),
       outbound: fetch_data(outbound_url)
     }

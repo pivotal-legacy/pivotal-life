@@ -1,0 +1,104 @@
+<RTT>
+<AgencyList>
+<Agency Name="SF-MUNI" HasDirection="True" Mode="Bus">
+<RouteList>
+<Route Name="30-Stockton" Code="30">
+<RouteDirectionList>
+<RouteDirection Code="Outbound" Name="Outbound to The Marina District">
+<StopList>
+<Stop name="3rd St  and  Howard St" StopCode="13128">
+<DepartureTimeList>
+<DepartureTime>8</DepartureTime>
+<DepartureTime>14</DepartureTime>
+</DepartureTimeList>
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="45-Union Stockton" Code="45">
+<RouteDirectionList>
+<RouteDirection Code="Outbound" Name="Outbound to The Presidio">
+<StopList>
+<Stop name="3rd St  and  Howard St" StopCode="13128">
+<DepartureTimeList>
+<DepartureTime>10</DepartureTime>
+<DepartureTime>22</DepartureTime>
+<DepartureTime>34</DepartureTime>
+</DepartureTimeList>
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="8AX-Bayshore A Express" Code="8AX">
+<RouteDirectionList>
+<RouteDirection Code="Inbound" Name="Inbound to Chinatown">
+<StopList>
+<Stop name="3rd St  and  Howard St" StopCode="13128">
+<DepartureTimeList />
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="8BX-Bayshore B Express" Code="8BX">
+<RouteDirectionList>
+<RouteDirection Code="Inbound" Name="Inbound to Fishermans Wharf">
+<StopList>
+<Stop name="3rd St  and  Howard St" StopCode="13128">
+<DepartureTimeList />
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="8X-Bayshore Express" Code="8X">
+<RouteDirectionList>
+<RouteDirection Code="Inbound" Name="Inbound to Fishermans Wharf">
+<StopList>
+<Stop name="3rd St  and  Howard St" StopCode="13128">
+<DepartureTimeList>
+<DepartureTime>3</DepartureTime>
+<DepartureTime>25</DepartureTime>
+<DepartureTime>31</DepartureTime>
+</DepartureTimeList>
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="91-Owl" Code="91">
+<RouteDirectionList>
+<RouteDirection Code="Inbound" Name="Inbound to SF State via Downtown">
+<StopList>
+<Stop name="3rd St  and  Howard St" StopCode="13128">
+<DepartureTimeList />
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+</RouteList>
+</Agency>
+
+</AgencyList>
+</RTT>

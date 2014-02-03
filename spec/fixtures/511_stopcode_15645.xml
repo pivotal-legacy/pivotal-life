@@ -1,0 +1,187 @@
+<RTT>
+<AgencyList>
+<Agency Name="SF-MUNI" HasDirection="True" Mode="Bus">
+<RouteList>
+<Route Name="21-Hayes" Code="21">
+<RouteDirectionList>
+<RouteDirection Code="Inbound" Name="Inbound to Downtown">
+<StopList>
+<Stop name="Market St  and  5th St" StopCode="15645">
+<DepartureTimeList>
+<DepartureTime>10</DepartureTime>
+<DepartureTime>22</DepartureTime>
+<DepartureTime>34</DepartureTime>
+</DepartureTimeList>
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="31-Balboa" Code="31">
+<RouteDirectionList>
+<RouteDirection Code="Inbound" Name="Inbound to Downtown">
+<StopList>
+<Stop name="Market St  and  5th St" StopCode="15645">
+<DepartureTimeList>
+<DepartureTime>6</DepartureTime>
+<DepartureTime>18</DepartureTime>
+<DepartureTime>33</DepartureTime>
+</DepartureTimeList>
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="6-Parnassus" Code="6">
+<RouteDirectionList>
+<RouteDirection Code="Inbound" Name="Inbound to Downtown">
+<StopList>
+<Stop name="Market St  and  5th St" StopCode="15645">
+<DepartureTimeList>
+<DepartureTime>13</DepartureTime>
+<DepartureTime>20</DepartureTime>
+<DepartureTime>31</DepartureTime>
+</DepartureTimeList>
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="9-San Bruno" Code="9">
+<RouteDirectionList>
+<RouteDirection Code="Inbound" Name="Inbound to Downtown">
+<StopList>
+<Stop name="Market St  and  5th St" StopCode="15645">
+<DepartureTimeList>
+<DepartureTime>9</DepartureTime>
+<DepartureTime>22</DepartureTime>
+<DepartureTime>29</DepartureTime>
+</DepartureTimeList>
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="9L-San Bruno Limited" Code="9L">
+<RouteDirectionList>
+<RouteDirection Code="Inbound" Name="Inbound to Downtown">
+<StopList>
+<Stop name="Market St  and  5th St" StopCode="15645">
+<DepartureTimeList>
+<DepartureTime>18</DepartureTime>
+<DepartureTime>30</DepartureTime>
+<DepartureTime>43</DepartureTime>
+</DepartureTimeList>
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="F-Market And Wharves" Code="F">
+<RouteDirectionList>
+<RouteDirection Code="Inbound" Name="Inbound to Fishermans Wharf">
+<StopList>
+<Stop name="Market St  and  5th St" StopCode="15645">
+<DepartureTimeList>
+<DepartureTime>3</DepartureTime>
+<DepartureTime>11</DepartureTime>
+<DepartureTime>17</DepartureTime>
+</DepartureTimeList>
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="K-Owl" Code="K OWL">
+<RouteDirectionList>
+<RouteDirection Code="Inbound" Name="Inbound to Downtown">
+<StopList>
+<Stop name="Market St  and  5th St" StopCode="15645">
+<DepartureTimeList />
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="L-Owl" Code="L OWL">
+<RouteDirectionList>
+<RouteDirection Code="Inbound" Name="Inbound to Downtown">
+<StopList>
+<Stop name="Market St  and  5th St" StopCode="15645">
+<DepartureTimeList />
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="M-Owl" Code="M OWL">
+<RouteDirectionList>
+<RouteDirection Code="Inbound" Name="Inbound to Downtown">
+<StopList>
+<Stop name="Market St  and  5th St" StopCode="15645">
+<DepartureTimeList />
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="N-Owl" Code="N OWL">
+<RouteDirectionList>
+<RouteDirection Code="Inbound" Name="Inbound to Caltrain">
+<StopList>
+<Stop name="Market St  and  5th St" StopCode="15645">
+<DepartureTimeList />
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="T-Owl" Code="T OWL">
+<RouteDirectionList>
+<RouteDirection Code="Inbound" Name="Inbound to Visitacion Valley">
+<StopList>
+<Stop name="Market St  and  5th St" StopCode="15645">
+<DepartureTimeList />
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+</RouteList>
+</Agency>
+
+</AgencyList>
+</RTT>

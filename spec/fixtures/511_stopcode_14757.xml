@@ -1,0 +1,45 @@
+<RTT>
+<AgencyList>
+<Agency Name="SF-MUNI" HasDirection="True" Mode="Bus">
+<RouteList>
+<Route Name="38-Geary" Code="38">
+<RouteDirectionList>
+<RouteDirection Code="Outbound" Name="Outbound to The Richmond District">
+<StopList>
+<Stop name="Geary Blvd  and  Powell St" StopCode="14757">
+<DepartureTimeList>
+<DepartureTime>3</DepartureTime>
+<DepartureTime>10</DepartureTime>
+<DepartureTime>16</DepartureTime>
+</DepartureTimeList>
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="38L-Geary Limited" Code="38L">
+<RouteDirectionList>
+<RouteDirection Code="Outbound" Name="Outbound to The Richmond District">
+<StopList>
+<Stop name="Geary Blvd  and  Powell St" StopCode="14757">
+<DepartureTimeList>
+<DepartureTime>2</DepartureTime>
+<DepartureTime>8</DepartureTime>
+<DepartureTime>13</DepartureTime>
+</DepartureTimeList>
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+</RouteList>
+</Agency>
+
+</AgencyList>
+</RTT>

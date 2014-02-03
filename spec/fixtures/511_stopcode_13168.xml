@@ -1,0 +1,123 @@
+<RTT>
+<AgencyList>
+<Agency Name="SF-MUNI" HasDirection="True" Mode="Bus">
+<RouteList>
+<Route Name="27-Bryant" Code="27">
+<RouteDirectionList>
+<RouteDirection Code="Outbound" Name="Outbound to The Mission District">
+<StopList>
+<Stop name="5th St  and  Folsom St" StopCode="13168">
+<DepartureTimeList>
+<DepartureTime>15</DepartureTime>
+<DepartureTime>24</DepartureTime>
+<DepartureTime>39</DepartureTime>
+</DepartureTimeList>
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="30-Stockton" Code="30">
+<RouteDirectionList>
+<RouteDirection Code="Inbound" Name="Inbound to Caltrain">
+<StopList>
+<Stop name="5th St  and  Folsom St" StopCode="13168">
+<DepartureTimeList>
+<DepartureTime>10</DepartureTime>
+<DepartureTime>11</DepartureTime>
+<DepartureTime>13</DepartureTime>
+</DepartureTimeList>
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="45-Union Stockton" Code="45">
+<RouteDirectionList>
+<RouteDirection Code="Inbound" Name="Inbound to Caltrain">
+<StopList>
+<Stop name="5th St  and  Folsom St" StopCode="13168">
+<DepartureTimeList>
+<DepartureTime>6</DepartureTime>
+<DepartureTime>18</DepartureTime>
+<DepartureTime>28</DepartureTime>
+</DepartureTimeList>
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="8AX-Bayshore A Express" Code="8AX">
+<RouteDirectionList>
+<RouteDirection Code="Outbound" Name="Outbound to Visitacion Valley">
+<StopList>
+<Stop name="5th St  and  Folsom St" StopCode="13168">
+<DepartureTimeList />
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="8BX-Bayshore B Express" Code="8BX">
+<RouteDirectionList>
+<RouteDirection Code="Outbound" Name="Outbound to City College">
+<StopList>
+<Stop name="5th St  and  Folsom St" StopCode="13168">
+<DepartureTimeList />
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="8X-Bayshore Express" Code="8X">
+<RouteDirectionList>
+<RouteDirection Code="Outbound" Name="Outbound to City College">
+<StopList>
+<Stop name="5th St  and  Folsom St" StopCode="13168">
+<DepartureTimeList>
+<DepartureTime>3</DepartureTime>
+<DepartureTime>13</DepartureTime>
+<DepartureTime>30</DepartureTime>
+</DepartureTimeList>
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="91-Owl" Code="91">
+<RouteDirectionList>
+<RouteDirection Code="Outbound" Name="Outbound to West Portal via Downtown">
+<StopList>
+<Stop name="5th St  and  Folsom St" StopCode="13168">
+<DepartureTimeList />
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+</RouteList>
+</Agency>
+
+</AgencyList>
+</RTT>

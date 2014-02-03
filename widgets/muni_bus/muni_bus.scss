@@ -1,0 +1,25 @@
+.widget-muni-bus {
+  background: white;
+  color: black;
+
+  .stop {
+    font-weight: bold;
+  }
+
+  .bus {
+    display: inline-block;
+    border: 1px solid black;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    padding: 0.1em 0.25em;
+  }
+
+  .time {
+    display: inline-block;
+    padding-left: 0.5em;
+    &:after {
+      content: "m";
+    }
+  }
+}

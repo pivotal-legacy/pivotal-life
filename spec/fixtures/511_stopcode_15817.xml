@@ -1,0 +1,45 @@
+<RTT>
+<AgencyList>
+<Agency Name="SF-MUNI" HasDirection="True" Mode="Bus">
+<RouteList>
+<Route Name="38-Geary" Code="38">
+<RouteDirectionList>
+<RouteDirection Code="Inbound" Name="Inbound to Downtown">
+<StopList>
+<Stop name="OFarrell St  and  Powell St" StopCode="15817">
+<DepartureTimeList>
+<DepartureTime>9</DepartureTime>
+<DepartureTime>11</DepartureTime>
+<DepartureTime>16</DepartureTime>
+</DepartureTimeList>
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="38L-Geary Limited" Code="38L">
+<RouteDirectionList>
+<RouteDirection Code="Inbound" Name="Inbound to Downtown">
+<StopList>
+<Stop name="OFarrell St  and  Powell St" StopCode="15817">
+<DepartureTimeList>
+<DepartureTime>3</DepartureTime>
+<DepartureTime>7</DepartureTime>
+<DepartureTime>11</DepartureTime>
+</DepartureTimeList>
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+</RouteList>
+</Agency>
+
+</AgencyList>
+</RTT>

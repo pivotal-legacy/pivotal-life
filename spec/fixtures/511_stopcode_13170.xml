@@ -1,0 +1,26 @@
+<RTT>
+<AgencyList>
+<Agency Name="SF-MUNI" HasDirection="True" Mode="Bus">
+<RouteList>
+<Route Name="27-Bryant" Code="27">
+<RouteDirectionList>
+<RouteDirection Code="Inbound" Name="Inbound to Jackson and Van Ness">
+<StopList>
+<Stop name="5th St  and  Howard St" StopCode="13170">
+<DepartureTimeList>
+<DepartureTime>8</DepartureTime>
+<DepartureTime>24</DepartureTime>
+</DepartureTimeList>
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+</RouteList>
+</Agency>
+
+</AgencyList>
+</RTT>
