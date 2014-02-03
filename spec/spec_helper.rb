@@ -1,3 +1,6 @@
+ENV['RACK_ENV'] = 'test'
+ENV['JOB_PATH'] = '/no/where/to/go'
+
 require 'dashing'
 require 'capybara/rspec'
 require 'capybara/dsl'
