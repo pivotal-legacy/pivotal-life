@@ -1,10 +1,17 @@
 class Dashing.MuniBus extends Dashing.Widget
 
   ready: ->
-    # This is fired when the widget is done being rendered
+    $('.stops').isotope({
+      itemSelector : '.stop'
+      masonryHorizontal: {
+        rowHeight: 290
+      }
+      sortBy: 'name', sortAscending: true
+      getSortData: {
+        name: ($elem) =>
+          $elem.find('caption').text()
+      }
+    });
 
   onData: (data) ->
     @set('data', data.data)
-    stops = for stop, ignore of data.data
-      stop
-    @set('stop', stops.sort())

@@ -2,65 +2,98 @@
   background: white;
   color: black;
 
-  table.stop {
-    width: 200px;
-    table-layout: fixed;
-    float: left;
-    margin: 0.5em;
+  .stops {
+    height: 100%;
 
-    caption {
-      font-weight: bold;
-      white-space: nowrap;
-    }
+    table.stop {
+      width: 200px;
+      font-size: smaller;
+      table-layout: fixed;
+      float: left;
+      margin: 0.5em;
 
-    th {
-      background: black;
-      color: white;
-      border-right: solid 5px white;
-      border-bottom: solid 5px white;
-      &:last-child {
-        border-bottom: none;
+      caption {
+        font-weight: bold;
+        white-space: nowrap;
       }
-    }
 
-    td {
-      border-right: solid 1px lightgrey;
-      &:nth-child(4) {
-        border-right: none !important;
-      }
-    }
-
-    tr {
-      border-bottom: solid 1px lightgrey;
-      &:last-of-type {
-        border-bottom: none;
-      }
-    }
-
-    &:nth-of-type(4n+0) {
       th {
-        background: rgb(218,66,44);
+        background: black;
+        color: white;
+        border-right: solid 5px white;
+        border-bottom: solid 5px white;
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+
+      td {
+        border-right: solid 1px lightgrey;
+        &:nth-child(4) {
+          border-right: none !important;
+        }
+      }
+
+      tr {
+        border-bottom: solid 1px lightgrey;
+        &:last-of-type {
+          border-bottom: none;
+        }
+      }
+
+      &:nth-of-type(9n+0) {
+        th {
+          background: rgb(218, 66, 44);
+        }
+      }
+
+      &:nth-of-type(9n+1) {
+        th {
+          background: rgb(6, 150, 69);
+        }
+      }
+
+      &:nth-of-type(9n+2) {
+        th {
+          background: rgb(61, 151, 241);
+        }
+      }
+
+      &:nth-of-type(9n+3) {
+        th {
+          background: rgb(234, 205, 67);
+        }
+      }
+
+      &:nth-of-type(9n+4) {
+        th {
+          background: mediumpurple;
+        }
+      }
+
+      &:nth-of-type(9n+5) {
+        th {
+          background: orange;
+        }
+      }
+
+      &:nth-of-type(9n+6) {
+        th {
+          background: blue;
+        }
+      }
+
+      &:nth-of-type(9n+7) {
+        th {
+          background: cadetblue;
+        }
+      }
+
+      &:nth-of-type(9n+8) {
+        th {
+          background: chocolate;
+        }
       }
     }
-
-    &:nth-of-type(4n+1) {
-      th {
-        background: rgb(6,150,69);
-      }
-    }
-
-    &:nth-of-type(4n+2) {
-      th {
-        background: rgb(61,151,241);
-      }
-    }
-
-    &:nth-of-type(4n+3) {
-      th {
-        background: rgb(234,205,67);
-      }
-    }
-
-
   }
 }
