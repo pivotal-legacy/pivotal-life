@@ -1,6 +1,7 @@
 .widget.traffic {
   padding: 0;
   overflow: hidden;
+  z-index: -1;
 
   iframe {
     height:120%;
