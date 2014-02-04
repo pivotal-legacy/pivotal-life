@@ -23,9 +23,10 @@ class MuniBusFetcher
       stop = route.xpath('./RouteDirectionList/RouteDirection/StopList/Stop').attribute('name').value
 
       data[stop] ||= {}
-      data[stop][route.attribute('Code').text] = route.xpath('./RouteDirectionList/RouteDirection/StopList/Stop/DepartureTimeList/DepartureTime').map do |time|
+      times = route.xpath('./RouteDirectionList/RouteDirection/StopList/Stop/DepartureTimeList/DepartureTime').map do |time|
         Integer(time.text)
       end
+      data[stop][route.attribute('Code').text] = times unless times.empty?
     end
     data
   end
