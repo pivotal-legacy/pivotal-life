@@ -2,24 +2,44 @@
   background: white;
   color: black;
 
-  .stop {
-    font-weight: bold;
-  }
+  span table.stop {
+    border: 0;
+    width: 200px;
+    table-layout: fixed;
+    float: left;
 
-  .bus {
-    display: inline-block;
-    border: 1px solid black;
-    background: black;
-    color: white;
-    border-radius: 50%;
-    padding: 0.1em 0.25em;
-  }
+    caption {
+      font-weight: bold;
+    }
 
-  .time {
-    display: inline-block;
-    padding-left: 0.5em;
-    &:after {
-      content: "m";
+    th {
+      background: black;
+      color: white;
+      margin: 2px;
+    }
+
+    td {
+      border-right: solid 1px lightgrey;
+      &:last-of-type {
+        border-right: none;
+      }
+    }
+
+    tr {
+      border: solid 1px lightgrey;
+      border-bottom: solid 1px lightgrey;
+      &:last-of-type {
+        border-bottom: none;
+      }
+    }
+
+
+    .time {
+      display: inline-block;
+      padding-left: 0.5em;
+      &:after {
+        content: "m";
+      }
     }
   }
 }

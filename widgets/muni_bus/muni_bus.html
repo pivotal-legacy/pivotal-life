@@ -1,11 +1,9 @@
-<span data-foreach-stop="data">
-  <table border=1>
-    <caption data-bind="stop"/>
-    <tr data-foreach-bus="data[stop]">
-      <th class="bus" data-bind="bus" data-showif="data[stop][bus].length"/>
-      <td data-foreach-time="data[stop][bus]" data-showif="data[stop][bus].length">
-        <div class="time" data-bind="time"/>
-      </td>
-    </tr>
-  </table>
-</span>
+  <span data-foreach-stop="stop" valign='top'>
+    <table class="stop">
+      <caption data-bind="stop | replace 'and', '&amp;' | replace ' St ', ' ' | replace ' St', ''"/>
+      <tr data-foreach-bus="data[stop]" data-showif="data[stop][bus].length">
+        <th class="bus" data-bind="bus"/>
+        <td data-foreach-time="data[stop][bus]" data-bind="time"/>
+      </tr>
+    </table>
+  </span>
