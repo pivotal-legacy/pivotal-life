@@ -10,4 +10,12 @@ $background-color:  #dc5945;
 
   background-color: $background-color;
 
+  white-space: nowrap;
+
+  .date {
+    font-size: 30px;
+  }
+  .time {
+    font-size: 48px;
+  }
 }
