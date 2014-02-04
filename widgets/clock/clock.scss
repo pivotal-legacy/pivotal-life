@@ -1,14 +1,5 @@
-// ----------------------------------------------------------------------------
-// Sass declarations
-// ----------------------------------------------------------------------------
-$background-color:  #dc5945;
-
-// ----------------------------------------------------------------------------
-// Widget-clock styles
-// ----------------------------------------------------------------------------
 .widget-clock {
-
-  background-color: $background-color;
+  background-color: #dc5945;
 
   white-space: nowrap;
 
@@ -16,6 +7,7 @@ $background-color:  #dc5945;
     font-size: 30px;
   }
   .time {
-    font-size: 48px;
+    font-size: 64px;
+    font-weight: bold;
   }
 }

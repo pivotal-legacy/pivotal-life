@@ -4,6 +4,6 @@ class Dashing.Clock extends Dashing.Widget
     setInterval(@showTime, 500)
 
   showTime: =>
-    today = new Date()
-    @set('time', today.toLocaleTimeString())
-    @set('date', today.toDateString())
+    now = moment()
+    @set('time', now.format('h:mm A');)
+    @set('date', now.format('ddd MMM D, YYYY');)
