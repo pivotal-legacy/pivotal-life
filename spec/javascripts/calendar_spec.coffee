@@ -19,12 +19,12 @@ describe("Calendar widget", =>
 
     rotateFunction = window.setInterval.calls.mostRecent().args[0]
 
-    expect(calendar.get("event")).toEqual(event1)
+    expect(calendar.get("Event")).toEqual(event1)
     rotateFunction.call()
-    expect(calendar.get("event")).toEqual(event2)
+    expect(calendar.get("Event")).toEqual(event2)
     rotateFunction.call()
-    expect(calendar.get("event")).toEqual(event1)
+    expect(calendar.get("Event")).toEqual(event1)
     rotateFunction.call()
-    expect(calendar.get("event")).toEqual(event2)
+    expect(calendar.get("Event")).toEqual(event2)
   )
 )

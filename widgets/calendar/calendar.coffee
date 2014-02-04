@@ -15,4 +15,4 @@ class Dashing.Calendar extends Dashing.Widget
       event.time = "Ends "+moment(event.when_end).fromNow()
     else
       event.time = moment(event.when_start).calendar()
-    @set('event',event)
+    @set('Event',event)
