@@ -47,30 +47,33 @@ $yellow: rgb(255, 233, 0);
           padding: 0.1em 0.5em;
           border-radius: 0.5em;
           margin: 1px 0;
-          width: 90%;
+          width: 89%;
           display: block;
           border: solid 1px black;
-        }
-        .Fremont {
-          background: rgb(61,176,50);
-        }
-        .Daly.City {
-          background: orangered;
-        }
-        .SFO {
-          background: linear-gradient(135deg, $yellow 0%, $yellow 10%,white 10%,white 20%, $yellow 20%, $yellow 30%,white 30%,white 40%,$yellow 40%,$yellow 50%,white 50%,white 60%, $yellow 60%, $yellow 70%,white 70%,white 100%);
-        }
-        .Millbrae {
-          background: linear-gradient(135deg, $red 0%, $red 10%,white 10%,white 20%, $red 20%, $red 30%,white 30%,white 40%,$red 40%,$red 50%,white 50%,white 100%);
-        }
-        .Dublin.Pleasanton {
-          background: rgb(0,155,238);
-        }
-        .Richmond {
-          background: $red;
-        }
-        .Pittsburg.Bay.Point {
-          background: $yellow;
+          &.Fremont {
+            background: rgb(61,176,50);
+          }
+          &.Daly.City {
+            background: orangered;
+          }
+          &.SFO {
+            background: linear-gradient(135deg, $yellow 0%, $yellow 10%,white 10%,white 20%, $yellow 20%, $yellow 30%,white 30%,white 40%,$yellow 40%,$yellow 50%,white 50%,white 60%, $yellow 60%, $yellow 70%,white 70%,white 100%);
+          }
+          &.Millbrae {
+            background: linear-gradient(135deg, $red 0%, $red 10%,white 10%,white 20%, $red 20%, $red 30%,white 30%,white 40%,$red 40%,$red 50%,white 50%,white 100%);
+          }
+          &.SFO.then.Millbrae {
+            background: linear-gradient(135deg, $red 0%, $red 10%,white 10%,white 20%, $red 20%, $red 30%,white 30%,white 40%,$red 40%,$red 50%,white 50%,white 60%,$yellow 60%, $yellow 70%,white 70%, white 80%,$yellow 80%, $yellow 90%,white 90%, white 100%);
+          }
+          &.Dublin.Pleasanton {
+            background: rgb(0,155,238);
+          }
+          &.Richmond {
+            background: $red;
+          }
+          &.Pittsburg.Bay.Point {
+            background: $yellow;
+          }
         }
       }
       td {
@@ -78,7 +81,7 @@ $yellow: rgb(255, 233, 0);
       }
 
       .times {
-        padding-left: 0.75em;
+        padding-left: 0.5em;
         &:after {
           content: "m";
         }
