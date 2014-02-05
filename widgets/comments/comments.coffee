@@ -3,6 +3,8 @@ class Dashing.Comments extends Dashing.Widget
   @accessor 'quote', ->
     "#{@get('current_comment')?.body}"
 
+  @accessor 'updatedAtMessage', Util.updatedAtShortTime
+
   ready: ->
     @currentIndex = 0
     @commentElem = $(@node).find('.comment-container')

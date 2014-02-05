@@ -1,5 +1,8 @@
 class Dashing.Calendar extends Dashing.Widget
 
+  @accessor 'updatedAtMessage', Util.updatedAtShortTime
+
+
   ready: =>
     @index = 0
     setInterval(@updateEvent, 15000)
