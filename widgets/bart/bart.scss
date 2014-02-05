@@ -2,6 +2,8 @@
 // Sass declarations
 // ----------------------------------------------------------------------------
 $background-color: #ec663c;
+$red: rgb(233, 0, 19);
+$yellow: rgb(255, 233, 0);
 
 // ----------------------------------------------------------------------------
 // Widget-calendar styles
@@ -29,7 +31,6 @@ $background-color: #ec663c;
     padding: 5px;
     background: white;
     height: 236px;
-    opacity: 0.9;
 
     table {
       th, td {
@@ -41,15 +42,48 @@ $background-color: #ec663c;
         text-align: right;
         font-size: smaller;
         white-space: nowrap;
+
+        span {
+          padding: 0.1em 0.5em;
+          border-radius: 0.5em;
+          margin: 1px 0;
+          width: 90%;
+          display: block;
+          border: solid 1px black;
+        }
+        .Fremont {
+          background: rgb(61,176,50);
+        }
+        .Daly.City {
+          background: orangered;
+        }
+        .SFO {
+          background: linear-gradient(135deg, $yellow 0%, $yellow 10%,white 10%,white 20%, $yellow 20%, $yellow 30%,white 30%,white 40%,$yellow 40%,$yellow 50%,white 50%,white 60%, $yellow 60%, $yellow 70%,white 70%,white 100%);
+        }
+        .Millbrae {
+          background: linear-gradient(135deg, $red 0%, $red 10%,white 10%,white 20%, $red 20%, $red 30%,white 30%,white 40%,$red 40%,$red 50%,white 50%,white 100%);
+        }
+        .Dublin.Pleasanton {
+          background: rgb(0,155,238);
+        }
+        .Richmond {
+          background: $red;
+        }
+        .Pittsburg.Bay.Point {
+          background: $yellow;
+        }
       }
       td {
         text-align: right;
       }
 
       .times {
-        padding-left: 1em;
+        padding-left: 0.75em;
         &:after {
           content: "m";
+        }
+        &:first-child {
+          padding-left: 0;
         }
       }
     }
