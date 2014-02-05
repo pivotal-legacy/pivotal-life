@@ -1,9 +1,13 @@
 .widget.traffic {
   padding: 0;
   overflow: hidden;
+  background: white;
 
   iframe {
+    margin: -10% -5%;
     height:120%;
-    width:100%;
+    width:110%;
+
+    border: 0;
   }
 }
