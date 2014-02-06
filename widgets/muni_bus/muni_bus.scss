@@ -1,12 +1,16 @@
 .widget-muni-bus {
   background: white;
   color: black;
+  &.widget {
+    vertical-align: top;
+  }
 
   .stops {
     height: 100%;
+    margin: 0 auto;
 
     table.stop {
-      width: 200px;
+      width: 215px;
       font-size: smaller;
       table-layout: fixed;
       float: left;
