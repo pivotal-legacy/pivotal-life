@@ -24,3 +24,5 @@ class Dashing.Comments extends Dashing.Widget
         @currentIndex = (@currentIndex + 1) % comments.length
         @set 'current_comment', comments[@currentIndex]
         @commentElem.fadeIn()
+
+
