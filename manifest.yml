@@ -1,0 +1,8 @@
+---
+applications:
+- name: pivotal-life
+  memory: 128M
+  instances: 1
+  host: pivotallabs.com
+  domain: life
+  path: .
