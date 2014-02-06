@@ -32,10 +32,10 @@ $T-color: rgb(200, 0, 51);
           width: 2.25em;
         }
         &.inbound {
-          text-align: right;
+          text-align: left;
           span {
-            float: right;
-            text-align: right;
+            float: left;
+            text-align: left;
           }
         }
         &.outbound {
