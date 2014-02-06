@@ -15,6 +15,14 @@ $T-color: rgb(200, 0, 51);
 .widget-muni-powell {
   background-color: $background-color;
   color: black;
+  &.widget {
+    vertical-align: top;
+    padding-top: 10px;
+  }
+
+  .logo {
+    height: 50px;
+  }
 
   .data {
     table {
