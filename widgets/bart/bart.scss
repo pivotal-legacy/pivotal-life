@@ -4,24 +4,19 @@
 $background-color: #ec663c;
 $red: rgb(233, 0, 19);
 $yellow: rgb(255, 233, 0);
+$blue: rgb(0,155,238);
 
 // ----------------------------------------------------------------------------
 // Widget-calendar styles
 // ----------------------------------------------------------------------------
 .widget-bart {
-  background-color: white;
-  background-image: url("http://upload.wikimedia.org/wikipedia/en/archive/4/44/20120813231048!Marge_vs._the_Monorail_(promo_card).png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0px -100px;
+  background-color: #FFBB00;
   color: black;
   padding: 0 !important;
   overflow: hidden;
 
   img.logo {
-    position: absolute;
-    top: 65px;
-    left: 209px;
+    width: 125px;
   }
 
   display: table-cell;
@@ -29,7 +24,6 @@ $yellow: rgb(255, 233, 0);
 
   .data {
     padding: 5px;
-    background: white;
     height: 236px;
 
     table {
@@ -50,11 +44,12 @@ $yellow: rgb(255, 233, 0);
           width: 89%;
           display: block;
           border: solid 1px black;
+          color: black;
           &.Fremont {
             background: rgb(61,176,50);
           }
-          &.Daly.City {
-            background: orangered;
+          &.Daly.City, &.Mission {
+            background: linear-gradient(90deg, $yellow 0%, $yellow 5%,green 5%,green 10%, $blue 10%, $blue 15%, $red 15%, $red 20%, white 20%, white 100%);
           }
           &.SFO {
             background: linear-gradient(135deg, $yellow 0%, $yellow 10%,white 10%,white 20%, $yellow 20%, $yellow 30%,white 30%,white 40%,$yellow 40%,$yellow 50%,white 50%,white 60%, $yellow 60%, $yellow 70%,white 70%,white 100%);
