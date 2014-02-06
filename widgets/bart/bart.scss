@@ -71,7 +71,7 @@ $yellow: rgb(255, 233, 0);
           &.Richmond {
             background: $red;
           }
-          &.Pittsburg.Bay.Point {
+          &.Pittsburg.Bay.Point, &.Concord {
             background: $yellow;
           }
         }
