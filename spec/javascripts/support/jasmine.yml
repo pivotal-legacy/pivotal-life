@@ -13,6 +13,8 @@
 src_files:
   - spec/javascripts/support/jquery.js
   - spec/javascripts/DashingMug.coffee
+  - assets/javascripts/moment.min.js
+  - assets/javascripts/moment-timezone.min.js
   - assets/javascripts/**/**.js
   - assets/javascripts/**/**.coffee
   - widgets/**/*.coffee
