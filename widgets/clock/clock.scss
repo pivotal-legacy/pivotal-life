@@ -4,10 +4,17 @@
   white-space: nowrap;
 
   .date {
-    font-size: 36px;
-  }
-  .time {
-    font-size: 20px;
+    font-size: 43px;
     font-weight: bold;
+    padding-bottom: 48px;
+  }
+
+  .time {
+    font-size: 27px;
+    font-weight: bold;
+  }
+
+  .city {
+    font-size: 25px;
   }
 }
