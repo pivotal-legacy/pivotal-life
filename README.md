@@ -11,36 +11,38 @@ To run the status board locally, do the following:
     $ git clone git@github.com:spilth/pivotal-life.git
     $ cd pivotal-life
     $ bundle
-    $ cp .env{.dist,}
-
-Open the `.env` from the last line above and customize to your liking.
-
-Don't check that file into version control.
-
-Start up Dashing:
-
-    $ dashing start
+    $ ./start.sh
 
 Then navigate to <http://localhost:3030/>.
 
-## Running on Heroku
 
-    $ heroku apps:create myapp
-    $ heroku config:set LATITUDE=<your lat>
-    $ heroku config:set LONGITUDE=<your long>
-    $ heroku config:set FORECAST_API_KEY=<your forecast.io api key>
-    $ heroku config:set EVENT_CALENDAR_URL=<your google calendar xml url>
-    $ heroku config:set TWITTER_CONSUMER_KEY=<your twitter consumer key>
-    $ heroku config:set TWITTER_CONSUMER_SECRET=<your twitter consumer secret>
-    $ heroku config:set TWITTER_OAUTH_TOKEN=<your twitter oauth token>
-    $ heroku config:set TWITTER_OAUTH_SECRET=<your twitter oauth secret>
-    $ git push heroku master
+To run Dashing without the environment variables:
 
+    $ dashing start
+
+This will still run on <http://localhost:3030/>, but it won't connect to any of the external services.
+
+
+## Deploying
+
+### Staging
+
+    $ cf push -f staging-manifest.yml
+
+Navigate to pivotal-life-staging.cfapps.io
+
+### Production
+
+    $ cf push -f manifest.yml
+
+Navigate to pivotal-life.cfapps.io
+
+This app is built on the Dashing framework, which is based on Sinatra.
 Check out http://shopify.github.com/dashing for more information.
 
 ## Resources
 
 - [Pivotal Tracker Project](https://www.pivotaltracker.com/s/projects/950406)
 - [Dashing](http://shopify.github.com/dashing)
-
+- PM: Michael McGinley
 
