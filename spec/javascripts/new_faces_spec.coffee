@@ -2,6 +2,8 @@ describe("new faces", =>
   newFaces = undefined
   pivot1 = undefined
   pivot2 = undefined
+  pivot3 = undefined
+  pivot4 = undefined
 
   beforeEach(=>
     spyOn(window, "setInterval")
@@ -10,7 +12,9 @@ describe("new faces", =>
     newFaces.ready()
     pivot1 = {photo_url: '/abc/xyz', first_name: "Joe", last_name: "Pivot"}
     pivot2 = {photo_url: '/abc/xxz', first_name: "Jane", last_name: "Pivot"}
-    setDataOnWidget(newFaces, {new_faces: [ pivot1, pivot2 ]})
+    pivot3 = {photo_url: '/abc/xyz', first_name: "Bob", last_name: "Pivot"}
+    pivot4 = {photo_url: '/abc/xxz', first_name: "Mary", last_name: "Pivot"}
+    setDataOnWidget(newFaces, {new_faces: [ pivot1, pivot2 ], random_faces: [ pivot3, pivot4 ]})
   )
 
   it("rotates", =>
@@ -21,10 +25,10 @@ describe("new faces", =>
 
     expect(newFaces.get("item")).toEqual(pivot1)
     rotateFunction.call()
-    expect(newFaces.get("item")).toEqual(pivot2)
-    rotateFunction.call()
-    expect(newFaces.get("item")).toEqual(pivot1)
+    expect(newFaces.get("item")).toEqual(pivot3)
     rotateFunction.call()
     expect(newFaces.get("item")).toEqual(pivot2)
+    rotateFunction.call()
+    expect(newFaces.get("item")).toEqual(pivot4)
   )
 )
