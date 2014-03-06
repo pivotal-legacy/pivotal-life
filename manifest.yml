@@ -2,7 +2,7 @@
 applications:
 - name: pivotal-life
   memory: 256M
-  instances: 1
+  instances: 2
   host: pivotallabs.com
   domain: life
   path: .

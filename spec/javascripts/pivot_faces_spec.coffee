@@ -1,5 +1,5 @@
 describe("new faces", =>
-  newFaces = undefined
+  pivotFaces = undefined
   pivot1 = undefined
   pivot2 = undefined
   pivot3 = undefined
@@ -8,13 +8,13 @@ describe("new faces", =>
   beforeEach(=>
     spyOn(window, "setInterval")
 
-    newFaces = new Dashing.NewFaces()
-    newFaces.ready()
+    pivotFaces = new Dashing.PivotFaces()
+    pivotFaces.ready()
     pivot1 = {photo_url: '/abc/xyz', first_name: "Joe", last_name: "Pivot"}
     pivot2 = {photo_url: '/abc/xxz', first_name: "Jane", last_name: "Pivot"}
     pivot3 = {photo_url: '/abc/xyz', first_name: "Bob", last_name: "Pivot"}
     pivot4 = {photo_url: '/abc/xxz', first_name: "Mary", last_name: "Pivot"}
-    setDataOnWidget(newFaces, {new_faces: [ pivot1, pivot2 ], random_faces: [ pivot3, pivot4 ]})
+    setDataOnWidget(pivotFaces, {new_faces: [ pivot1, pivot2 ], random_faces: [ pivot3, pivot4 ]})
   )
 
   it("rotates", =>
@@ -23,12 +23,12 @@ describe("new faces", =>
 
     rotateFunction = window.setInterval.calls.mostRecent().args[0]
 
-    expect(newFaces.get("item")).toEqual(pivot1)
+    expect(pivotFaces.get("item")).toEqual(pivot1)
     rotateFunction.call()
-    expect(newFaces.get("item")).toEqual(pivot3)
+    expect(pivotFaces.get("item")).toEqual(pivot3)
     rotateFunction.call()
-    expect(newFaces.get("item")).toEqual(pivot2)
+    expect(pivotFaces.get("item")).toEqual(pivot2)
     rotateFunction.call()
-    expect(newFaces.get("item")).toEqual(pivot4)
+    expect(pivotFaces.get("item")).toEqual(pivot4)
   )
 )
