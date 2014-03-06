@@ -20,7 +20,6 @@ gem 'jasmine'
 group :development do
   gem 'heroku_san'
   gem 'guard-rspec'
-  gem 'cf'
 end
 
 group :development, :test do
