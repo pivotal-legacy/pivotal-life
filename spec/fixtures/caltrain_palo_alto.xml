@@ -1,0 +1,129 @@
+<RTT>
+<AgencyList>
+<Agency Name="Caltrain" HasDirection="True" Mode="Rail">
+<RouteList>
+<Route Name="BABY BULLET" Code="BABY BULLET">
+<RouteDirectionList>
+<RouteDirection Code="NB" Name="NORTHBOUND TO SAN FRANCISCO">
+<StopList>
+<Stop name="Palo Alto Caltrain Station" StopCode="70171">
+<DepartureTimeList />
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+<RouteDirection Code="SB2" Name="SOUTHBOUND TO TAMIEN">
+<StopList>
+<Stop name="Palo Alto Caltrain Station" StopCode="70172">
+<DepartureTimeList />
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+<RouteDirection Code="SB1" Name="SOUTHBOUND TO SAN JOSE DIRIDON">
+<StopList>
+<Stop name="Palo Alto Caltrain Station" StopCode="70172">
+<DepartureTimeList />
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="LIMITED" Code="LIMITED">
+<RouteDirectionList>
+<RouteDirection Code="NB" Name="NORTHBOUND TO SAN FRANCISCO">
+<StopList>
+<Stop name="Palo Alto Caltrain Station" StopCode="70171">
+<DepartureTimeList />
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+<RouteDirection Code="SB2" Name="SOUTHBOUND TO TAMIEN">
+<StopList>
+<Stop name="Palo Alto Caltrain Station" StopCode="70172">
+<DepartureTimeList />
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+<RouteDirection Code="SB1" Name="SOUTHBOUND TO SAN JOSE DIRIDON">
+<StopList>
+<Stop name="Palo Alto Caltrain Station" StopCode="70172">
+<DepartureTimeList />
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+<RouteDirection Code="SB3" Name="SOUTHBOUND TO GILROY">
+<StopList>
+<Stop name="Palo Alto Caltrain Station" StopCode="70172">
+<DepartureTimeList />
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+<Route Name="LOCAL" Code="LOCAL">
+<RouteDirectionList>
+<RouteDirection Code="SB2" Name="SOUTHBOUND TO TAMIEN">
+<StopList>
+<Stop name="Palo Alto Caltrain Station" StopCode="70172">
+<DepartureTimeList>
+<DepartureTime>76</DepartureTime>
+</DepartureTimeList>
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+<RouteDirection Code="SB1" Name="SOUTHBOUND TO SAN JOSE DIRIDON">
+<StopList>
+<Stop name="Palo Alto Caltrain Station" StopCode="70172">
+<DepartureTimeList>
+<DepartureTime>7</DepartureTime>
+</DepartureTimeList>
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+<RouteDirection Code="SB3" Name="SOUTHBOUND TO GILROY">
+<StopList>
+<Stop name="Palo Alto Caltrain Station" StopCode="70172">
+<DepartureTimeList />
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+<RouteDirection Code="NB" Name="NORTHBOUND TO SAN FRANCISCO">
+<StopList>
+<Stop name="Palo Alto Caltrain Station" StopCode="70171">
+<DepartureTimeList>
+<DepartureTime>41</DepartureTime>
+</DepartureTimeList>
+</Stop>
+
+</StopList>
+</RouteDirection>
+
+</RouteDirectionList>
+</Route>
+
+</RouteList>
+</Agency>
+
+</AgencyList>
+</RTT>
