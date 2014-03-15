@@ -1,0 +1,24 @@
+<div class="data">
+  <h2>Caltrain</h2>
+  <h3>Palo Alto Departures</h3>
+  <div class="col">
+    <h3>Southbound</h3>
+    <ul>
+      <li data-foreach-departure="departures.SB">
+        <span data-bind="departure.type"></span>
+        <span data-bind="departure.minutes"></span>
+        <span> Minutes</span>
+      </li>
+    </ul>
+  </div>
+  <div class="col">
+    <h3>Northbound</h3>
+    <ul>
+      <li data-foreach-departure="departures.NB">
+        <span data-bind="departure.type"></span>
+        <span data-bind="departure.minutes"></span>
+        <span> Minutes</span>
+      </li>
+    </ul>
+  </div>
+</div>
