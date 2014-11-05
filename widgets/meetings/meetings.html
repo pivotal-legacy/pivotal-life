@@ -1,0 +1,54 @@
+<div id="select">
+  <select id="roomSelect">
+    <option class="options"value="">Select a Room</option>
+    <option class="options"value="Bathurst">Bathurst</option>
+    <option class="options"value="Bay">Bay</option>
+    <option class="options"value="Bloor">Bloor</option>
+    <option class="options"value="Christie">Christie</option>
+    <option class="options"value="College">College</option>
+    <option class="options"value="Dufferin">Dufferin</option>
+    <option class="options"value="Dundas">Dundas</option>
+    <option class="options"value="Exhibition">Exhibition</option>
+    <option class="options"value="HighPark">High Park</option>
+    <option class="options"value="King">King</option>
+    <option class="options"value="Kipling">Kipling</option>
+    <option class="options"value="Landsdowne">Landsdowne</option>
+    <option class="options"value="OldMill">Old Mill</option>
+    <option class="options"value="Osgoode">Osgoode</option>
+    <option class="options"value="Ossington">Ossington</option>
+    <option class="options"value="Queen">Queen</option>
+    <option class="options"value="QueensPark">Queen's Park</option>
+    <option class="options"value="Spadina">Spadina</option>
+    <option class="options"value="StAndrew">St. Andrew</option>
+    <option class="options"value="StGeorge">St. George</option>
+    <option class="options"value="StPatrick">St. Patrick</option>
+    <option class="options"value="Union">Union</option>
+    <option class="options"value="Yonge">Yonge</option>
+  </select>
+  <button id="roomSwitch" data-event-click="changeRooms">Go to room</button>
+</div>
+<div id="booking">
+  <a href="http://www.google.com/calendar/event?action=TEMPLATE" target="_blank"> Add New Calendar Event </a>
+</div>
+<br />
+<div id="table">
+  <span data-foreach-item="items">
+    <a data-bind-href="item.link" target="_blank">
+      <div class="cell">
+        <div class="bottom-dash-border">
+          <p>Booked By</p>
+        </div>
+        <div class="organizer">
+          <p data-bind="item.organizer"></p>
+        </div>
+        <div class="time">
+          <p data-bind="item.time"></p>
+        </div>
+      </div>
+    </a>
+  </span>
+</div>
+
+<div data-bind-class="status.style">
+  <u>Status</u> <p data-bind="status.text"> </p>
+</div>

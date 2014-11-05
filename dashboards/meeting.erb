@@ -1,0 +1,24 @@
+<% content_for :title do %>Meeting Rooms<% end %>
+<div id="currentRoom">
+  <% case params[:room]
+  when nil %>
+  Queen's Park
+  <% when "" %>
+  Queen's Park
+  <% when "QueensPark" %>
+  Queen's Park
+  <% when "StPatrick" %>
+  St. Patrick
+  <% when "StAndrew" %>
+  St. Andrew
+  <% when "StGeorge" %>
+  St. George
+  <% when "OldMill" %>
+  Old Mill
+  <% when "HighPark" %>
+  High Park
+  <% else %>
+  <%= params[:room] %>
+  <% end %>
+</div>
+<div data-id=<%= params[:room].nil? || params[:room].empty? ? 'QueensPark' : params[:room] %> data-view="Meetings"></div>

@@ -1,0 +1,31 @@
+@meetings = MeetingsFetcher.new()
+
+SCHEDULER.every '1m', allow_overlapping: false do
+  @meetings = MeetingsFetcher.new() if @meetings.nil?
+  @meetings.refresh_access_token
+  #send_event('Museum', @meetings.get_summarized_events('room_museum@pivotallabs.com'))
+  send_event('QueensPark', @meetings.get_summarized_events('pivotal.io_746f2d717565656e732d7061726b@resource.calendar.google.com'))
+  send_event('StPatrick', @meetings.get_summarized_events('pivotal.io_746f2d73742d7061747269636b@resource.calendar.google.com'))
+  send_event('Osgoode', @meetings.get_summarized_events('pivotal.io_746f2d6f73676f6f6465@resource.calendar.google.com'))
+  send_event('StAndrew', @meetings.get_summarized_events('pivotal.io_746f2d73742d616e64726577@resource.calendar.google.com'))
+  send_event('King', @meetings.get_summarized_events('pivotal.io_746f2d6b696e67@resource.calendar.google.com'))
+  send_event('Queen', @meetings.get_summarized_events('pivotal.io_746f2d717565656e@resource.calendar.google.com'))
+  send_event('Dundas', @meetings.get_summarized_events('pivotal.io_746f2d64756e646173@resource.calendar.google.com'))
+  send_event('College', @meetings.get_summarized_events('pivotal.io_746f2d636f6c6c656765@resource.calendar.google.com'))
+  send_event('Spadina', @meetings.get_summarized_events('pivotal.io_746f2d73706164696e61@resource.calendar.google.com'))
+  send_event('StGeorge', @meetings.get_summarized_events('pivotal.io_746f2d73742d67656f726765@resource.calendar.google.com'))
+  send_event('Bay', @meetings.get_summarized_events('pivotal.io_3338303434323330343234@resource.calendar.google.com'))
+  send_event('Bloor', @meetings.get_summarized_events('pivotal.io_746f2d626c6f6f72@resource.calendar.google.com'))
+  send_event('Yonge', @meetings.get_summarized_events('pivotal.io_746f2d796f6e6765@resource.calendar.google.com'))
+  send_event('Exhibition', @meetings.get_summarized_events('pivotal.io_746f2d65786869626974696f6e@resource.calendar.google.com'))
+  send_event('Union', @meetings.get_summarized_events('pivotal.io_746f2d756e696f6e@resource.calendar.google.com'))
+  #send_event('Royal York', @meetings.get_summarized_events('room_royalyork@pivotallabs.com'))
+  send_event('OldMill', @meetings.get_summarized_events('pivotal.io_746f2d6f6c642d6d696c6c@resource.calendar.google.com'))
+  send_event('HighPark', @meetings.get_summarized_events('pivotal.io_746f2d686967682d7061726b@resource.calendar.google.com'))
+  send_event('Landsdowne', @meetings.get_summarized_events('pivotal.io_746f2d6c616e6473646f776e65@resource.calendar.google.com'))
+  send_event('Dufferin', @meetings.get_summarized_events('pivotal.io_746f2d647566666572696e@resource.calendar.google.com'))
+  send_event('Ossington', @meetings.get_summarized_events('pivotal.io_746f2d6f7373696e67746f6e@resource.calendar.google.com'))
+  send_event('Christie', @meetings.get_summarized_events('pivotal.io_746f2d6368726973746965@resource.calendar.google.com'))
+  send_event('Bathurst', @meetings.get_summarized_events('pivotal.io_746f2d6261746875727374@resource.calendar.google.com'))
+  send_event('Kipling', @meetings.get_summarized_events('pivotal.io_2d37343931302d363131@resource.calendar.google.com'))
+end

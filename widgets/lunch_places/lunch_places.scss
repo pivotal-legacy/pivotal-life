@@ -1,0 +1,27 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #7FAF1B;
+
+.widget-lunch-places {
+  background-color: $background-color;
+  text-align: center;
+  color: white;
+
+  h2 {
+    font-size: 3rem;
+    margin:40px 0;
+  }
+
+  span {
+    font-size: 1.8rem;
+    &.star {
+      color: #FFCC00;
+
+    }
+  }
+  p.info {
+    font-size: 1rem;
+    color: #666;
+  }
+}

@@ -1,0 +1,46 @@
+places:
+  - name: Chipotle
+    yelp_biz: chipotle-mexican-grill-toronto
+    distance: 13
+  - name: St. Lawrence Market
+    yelp_biz: st-lawrence-market-toronto
+    distance: 7
+  - name: Ravi Soups
+    yelp_biz: ravi-soups-toronto
+    distance: 18
+  - name: Origin
+    yelp_biz: origin-toronto
+    distance: 2
+  - name: Bikkuri
+    yelp_biz: bikkuri-japanese-cusine-toronto
+    distance: 1
+  - name: Five Guys Burgers and Fries
+    yelp_biz: five-guys-burgers-and-fries-toronto-2
+    distance: 14
+  - name: The Corner Place
+    yelp_biz: the-corner-place-toronto
+    distance: 6
+  - name: O Resto
+    yelp_biz: o-resto-lounge-toronto-2
+    distance: 2
+  - name: Fast Fresh Foods
+    yelp_biz: fast-fresh-foods-toronto-2
+    distance: 3
+  - name: Soup Nutsy
+    yelp_biz: soup-nutsy-toronto
+    distance: 7
+  - name: Freshii
+    yelp_biz: freshii-toronto-3
+    distance: 2
+  - name: Quesada
+    yelp_biz: quesada-burritos-and-tacos-toronto-2
+    distance: 2
+  - name: Panera
+    yelp_biz: panera-bread-toronto
+    distance: 14
+  - name: C'est What?
+    yelp_biz: cest-what-toronto
+    distance: 5
+  - name: Big Smoke Burger
+    yelp_biz: big-smoke-burger-toronto-4
+    distance: 1
