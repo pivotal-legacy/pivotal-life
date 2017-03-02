@@ -39,6 +39,10 @@ describe ForecastFetcher do
     'https://api.forecast.io/forecast/FAKE-API-KEY/-33.865,151.209?units=si'
   end
 
+  let(:atlanta_forecast_url) do
+    'https://api.forecast.io/forecast/FAKE-API-KEY/84.388,33.749?units=us'
+  end
+
   before do
     stub_request(:get, nyc_forecast_url).to_return(:body => File.read('spec/fixtures/forecast/nyc.json'))
     stub_request(:get, pa_forecast_url).to_return(:body => File.read('spec/fixtures/forecast/palo-alto.json'))
@@ -47,6 +51,7 @@ describe ForecastFetcher do
     stub_request(:get, toronto_forecast_url).to_return(:body => File.read('spec/fixtures/forecast/toronto.json'))
     stub_request(:get, boulder_forecast_url).to_return(:body => File.read('spec/fixtures/forecast/boulder.json'))
     stub_request(:get, denver_forecast_url).to_return(:body => File.read('spec/fixtures/forecast/denver.json'))
+    stub_request(:get, atlanta_forecast_url).to_return(:body => File.read('spec/fixtures/forecast/atlanta.json'))
     stub_request(:get, sydney_forecast_url).to_return(:body => File.read('spec/fixtures/forecast/sydney.json'))
   end
 
