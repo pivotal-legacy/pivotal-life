@@ -40,7 +40,7 @@ describe ForecastFetcher do
   end
 
   let(:atlanta_forecast_url) do
-    'https://api.forecast.io/forecast/FAKE-API-KEY/84.388,33.749?units=us'
+    'https://api.forecast.io/forecast/FAKE-API-KEY/33.7491,-84.3902?units=us'
   end
 
   before do

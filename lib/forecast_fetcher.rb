@@ -12,7 +12,7 @@ class ForecastFetcher
     to: { lat: 43.649932, lon: -79.375756, units: 'si', temp_unit: :c },
     boulder: { lat: 40.0149900, lon: -105.2705500, units: 'us', temp_unit: :f},
     denver: { lat: 39.7392, lon: -104.9903, units: 'us', temp_unit: :f},
-    atlanta: { lat: 84.3880, lon: 33.7490, units: 'us', temp_unit: :f}
+    atlanta: { lat: 33.7491, lon: -84.3902, units: 'us', temp_unit: :f}
   }
 
   def initialize(api_key, locations = DEFAULT_LOCATIONS)
