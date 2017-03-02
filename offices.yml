@@ -9,6 +9,8 @@ sf:
 #    url: http://www.google.com/calendar/feeds/pivotallabs.com_cdjvcp4tfaum7m0kie2na4dpgc%40group.calendar.google.com/public/full
 atlanta:
   name: Atlanta
+  calendar:
+    id: pivotal.io_l06uok1veak383kvqopuua8ajo@group.calendar.google.com
 sydney:
   name: Sydney
   calendar:
