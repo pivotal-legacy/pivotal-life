@@ -4,7 +4,7 @@
 
 Pivotal Life is an information radiator for [Pivotal Labs](http://pivotallabs.com) offices. It shows information like the weather, public transportation schedules & status, upcoming office events, tweets and random Pivots.
 
-For example, the NYC office dashboard can be viewed at <http://pivotal-life.cfapps.io/nyc>. You will need a username/password to log in. It can be retrieved using the `populate-dotenv.sh` script described below, which requires access to the `pivotallabs` organziation and `pivotal-life` space on [Pivotal Web Services](http://run.pivotal.io). To request access, email bkelly@pivotal.io or ask to be added by anyone who has access.
+For example, the NYC office dashboard can be viewed at <http://pivotal-life.cfapps.io/nyc>. You will need a username/password to log in. It can be retrieved using the `populate-dotenv.sh` script described below, which requires access to the `pivotallabs` organziation and `pivotal-life` space on [Pivotal Web Services](http://run.pivotal.io). To request access, email ask.
 
 ## Requirements
 
@@ -134,4 +134,3 @@ This application uses the following:
 
 - [Pivotal Tracker Project](https://www.pivotaltracker.com/n/projects/1003138)
 - [Dashing](http://shopify.github.com/dashing)
-- PM: Brian Kelly (bkelly at pivotal dot io)
