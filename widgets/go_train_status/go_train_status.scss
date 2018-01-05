@@ -1,0 +1,33 @@
+// ----------------------------------------------------------------------------
+// Widget-mantra styles
+// ----------------------------------------------------------------------------
+
+.widget-go-train-status {
+  .logo img {
+    width: 35%;
+    height: 14%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .go-train-status {
+    color: black;
+
+    .gridStatusWidthOne {
+      text-align: left;
+    }
+
+    .gridStatusWidthTwo {
+      text-align: right;
+    }
+
+    .moreInfoUpdateTamp, .moreInfoLink {
+      display: none;
+    }
+
+    .delayLink {
+      text-decoration: none;
+      color: #d2312a;
+    }
+  }
+}
