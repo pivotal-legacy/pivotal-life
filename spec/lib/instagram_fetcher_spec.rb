@@ -13,7 +13,7 @@ describe InstagramFetcher do
 
     it 'should grab a list of image links' do
       image_urls =  InstagramFetcher.new(user_id).image_urls
-      puts image_urls
+
       expect(image_urls.count).to eq(68)
       expect(image_urls).to eq(image_urls.uniq)
     end
