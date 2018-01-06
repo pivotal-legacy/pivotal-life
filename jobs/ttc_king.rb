@@ -3,7 +3,7 @@ require 'dotenv'
 Dotenv.load
 
 SCHEDULER.every '60s', first_in: 0 do
-	response = JSON.parse(Net::HTTP.get(URI("http://myttc.ca/king_station.json")))
+	response = JSON.parse(Net::HTTP.get(URI("https://myttc.ca/king_station.json")))
 	stops = response['stops']
 
 	northbound_timings = []
@@ -23,5 +23,4 @@ SCHEDULER.every '60s', first_in: 0 do
 	end
 
 	send_event('ttc_king', { northbound: northbound_timings, southbound: southbound_timings })
-	
 end
